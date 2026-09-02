@@ -1,4 +1,4 @@
-Feature: Student Data Correlation
+Feature: Student Data Correlation!
 	As a professor 
 	I want to be able to see correlations between the data from my previous classes
 	So that i can be able to spot patterns and, by that, improve my teaching.
@@ -47,7 +47,7 @@ Scenario: "Visualização dos dados de correlação após a conclusão de um per
 
 
 
-
+.
 
 
 
