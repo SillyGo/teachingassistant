@@ -49,7 +49,13 @@ fix 1
 placeholder_2_model
 
 
-
+Scenario: "Registro de correlações após o fim de um período onde haviam turmas anteriores"
+	Given there are completed classes from previous periods
+	And the current period contains classes with available data
+	When the current period ends
+	Then the system incorporates the data from the classes of the ended period into the correlation dataset
+	And the system computes the correlation using the data from all completed classes
+	And the system stores the resulting correlations.
 
 
 
