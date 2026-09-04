@@ -16,7 +16,7 @@ Scenario: "Vendo os dados de correlação após a conclusão de um período quan
 	And the current period has ended.
 	And the classes from the ended period have available data
 	And There are classes with available data from previous periods.
-	When i select the option responsible for viewing the correlation data
+	When i select the option for viewing the correlation data
 	Then i see the relevant correlations identified by the system
 	And the correlations include data from the ended period
 	And the correlations include data from the previous periods
